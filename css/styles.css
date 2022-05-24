@@ -1,0 +1,28 @@
+#carouselBasicExample,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url(/MDB5-STANDARD-UI-KIT-Free-4.1.0/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url(/MDB5-STANDARD-UI-KIT-Free-4.1.0/img/hu-chen-0LwfbRtQ-ac-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url(/MDB5-STANDARD-UI-KIT-Free-4.1.0/img/elephaunt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
